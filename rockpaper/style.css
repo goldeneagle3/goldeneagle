@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(35, 35, 49);
+}
+
+header {
+  background-color: white;
+  padding: 30px;
+}
+header > h1 {
+  color: rgb(35, 35, 49);
+  text-align: center;
+  font-family: "Asap", sans-serif;
+  font-size: 48px;
+}
+
+.score-board {
+  position: relative;
+  margin: 30px auto;
+  border: 3px solid wheat;
+  border-radius: 10%;
+  text-align: center;
+  width: 250px;
+  color: white;
+  font-size: 50px;
+  padding: 15px 20px;
+  font-family: "Asap", sans-serif;
+}
+
+.badge {
+  background-color: rgb(182, 56, 7);
+  font-size: 15px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 2px 5px;
+}
+#user-label {
+  position: absolute;
+  border: 1px black solid;
+  border-radius: 15%;
+  width: 60px;
+  top: 30px;
+  right: 220px;
+  color: green;
+  background-color: gray;
+}
+
+#comp-label {
+  position: absolute;
+  border: 1px black solid;
+  border-radius: 15%;
+  width: 60px;
+  top: 30px;
+  left: 220px;
+  padding: 9px auto;
+  color: red;
+  background-color: gray;
+}
+.result {
+  text-align: center;
+  color: aliceblue;
+  font-size: 40px;
+  font-family: monospace;
+  margin: 50px auto;
+  font-weight: bolder;
+}
+
+.choices {
+  text-align: center;
+  margin: 90px auto;
+}
+
+.choice {
+  display: inline-block;
+  border: 4px solid white;
+  border-radius: 50%;
+  margin: 0px 20px;
+  padding: 20px;
+  transition: all 0.4s ease;
+}
+.choice:hover {
+  cursor: pointer;
+  background-color: rgb(7, 24, 39);
+}
+
+img {
+  width: 70px;
+  height: 70px;
+}
+
+#action-move {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bolder;
+  margin-bottom: 25px;
+}
+
+.grow-green {
+  border: 4px solid green;
+  box-shadow: 0 0 4px #12213f;
+}
+.grow-red {
+  border: 4px solid red;
+  box-shadow: 0 0 4px #12213f;
+}
+.grow-grey {
+  border: 4px solid grey;
+  box-shadow: 0 0 4px #12213f;
+}
